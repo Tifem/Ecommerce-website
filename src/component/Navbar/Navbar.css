@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: space-between; /* Push items to opposite sides */
+  justify-content: space-between; 
   align-items: center;
   padding: 12px 24px;
   background: #f4eae3;
@@ -14,7 +14,7 @@
 .nav-links {
   display: flex;
   gap: 15px;
-  margin-left: 20px; /* Add spacing after the logo */
+  margin-left: 20px; 
 }
 
 .nav-links li a {
@@ -22,7 +22,7 @@
   font-weight: 500;
 }
 
-/* Left side containing cart and search */
+
 .left {
   display: flex;
   align-items: center;

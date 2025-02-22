@@ -1,0 +1,42 @@
+.category{
+    background: #ffffff;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px dotted brown;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-image {
+  width: 90%;
+  height: 150px;
+  object-fit: contain; 
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.slide-title{
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+
+.category-btn{
+    background-color: black;
+    color: white;
+    padding:10px 1.75rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.category-btn:hover{
+    background-color: rgb(59, 26, 26);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.category h2{
+    padding: 3rem 1.25rem;
+    font-size: 1.75rem;
+}
